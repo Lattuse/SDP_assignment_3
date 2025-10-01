@@ -1,0 +1,1 @@
+Mukashev Sultanbek SDP assignment 3. Adapter pattern on the example of real estate
