@@ -1,14 +1,10 @@
 package realestate;
 
-public class HouseAdapter implements Apartment {
-    private final House house;
-
-    public HouseAdapter(House house) {
-        this.house = house;
-    }
+public record HouseAdapter(House house) implements Apartment {
 
     @Override
     public double getArea() {
         return house.getLength() * house.getWidth();
     }
+
 }
